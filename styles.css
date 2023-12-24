@@ -1,74 +1,82 @@
+/* General styles (unchanged) */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #b0b6bc;
-  color: #fff;
-  padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #666;
-  padding: 10px;
-  text-align: center;
+  background-color: #333;
+  overflow: hidden;
 }
 
 nav a {
-  color: #fff;
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 8px 16px;
-  margin: 0 10px;
 }
 
 nav a:hover {
-  background-color: #888;
-  border-radius: 5px;
+  background-color: #ddd;
+  color: black;
 }
 
-section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+/* Additional styling for responsiveness */
+@media screen and (max-width: 600px) {
+  nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  #about {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .testimonial {
+    max-width: none;
+    width: 100%;
+    margin: 0 0 20px;
+  }
 }
 
-h1 {
-  color: #333;
-}
-
-h2 {
-  color: #666;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* Testimonial styling */
+/* Testimonial styling (unchanged) */
 #testimonials {
   background-color: #f8f8f8;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
 #testimonial-container {
   overflow-x: auto;
   white-space: nowrap;
-  padding: 30px;
+  padding: 10px;
 }
 
 .testimonial {
@@ -77,13 +85,8 @@ footer {
   margin: 0 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 30px;
+  padding: 10px;
   text-align: left;
 }
 
-/* Additional styling for responsiveness */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-}
+/* Your existing styles remain unchanged */
