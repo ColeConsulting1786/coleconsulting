@@ -8,21 +8,14 @@
   margin: 0;
 }
 
-header, nav, section, footer {
-  width: 80%; /* Adjust the width as needed */
-  max-width: 1200px; /* Optional: set a maximum width for larger screens */
-}
+  header, nav {
+      background-color: #757d85;
+      color: #fff; /* Text color for better contrast */
+    }
 
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  display: inline-block;
-  margin: 0 15px;
-  text-decoration: none;
-  color: #333; /* Adjust the color as needed */
-}
+    nav a {
+      color: #fff; /* Link color in the navigation bar */
+    }
 
 /* Testimonial styling */
 #testimonials {
