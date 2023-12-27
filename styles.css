@@ -1,72 +1,22 @@
-/* General styles (unchanged) */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
 }
 
-header {
-  text-align: center;
-}
-
+/* Center the navigation bar */
 nav {
-  background-color: #333;
-  overflow: hidden;
+  text-align: center;
 }
 
 nav a {
-  display: block;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  display: inline-block;
+  margin: 0 15px;
   text-decoration: none;
+  color: #333; /* Adjust the color as needed */
 }
 
-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Additional styling for responsiveness */
-@media screen and (max-width: 600px) {
-  nav a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-    box-sizing: border-box;
-  }
-
-  header img {
-    width: 100%;
-    height: auto;
-  }
-
-  body {
-    font-size: 14px;
-  }
-
-  #about {
-    padding: 20px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .testimonial {
-    max-width: none;
-    width: 100%;
-    margin: 0 0 20px;
-  }
-}
-
-/* Testimonial styling (unchanged) */
+/* Testimonial styling */
 #testimonials {
   background-color: #f8f8f8;
   padding: 20px;
@@ -88,5 +38,3 @@ nav a:hover {
   padding: 10px;
   text-align: left;
 }
-
-/* Your existing styles remain unchanged */
