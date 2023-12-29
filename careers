@@ -29,7 +29,7 @@
 
 <body>
   <header>
-    <img src="./vector.png" = width="450" height="225">
+    <img src="./vector.png" alt="Company Logo = width="450" height="225">
   </header>
     <nav>
     <a href="./">About Me</a>
