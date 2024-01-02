@@ -1,40 +1,45 @@
+/* Your existing styles remain unchanged */
+
+/* Additional styling for responsiveness */
 @media screen and (max-width: 600px) {
- body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
 
   header {
-      text-align: center;
-    }
+    text-align: center;
+  }
 
-   header img {
-      display: inline-block;
-    }
+  header img {
+    display: inline-block;
+  }
 
-/* Testimonial styling */
-#testimonials {
-  background-color: #f8f8f8;
-  padding: 20px;
-  text-align: center;
+  /* Testimonial styling */
+  #testimonials {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #testimonial-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .testimonial {
+    display: inline-block;
+    max-width: 300px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
 }
 
-#testimonial-container {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-.testimonial {
-  display: inline-block;
-  max-width: 300px;
-  margin: 0 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: left;
-}
