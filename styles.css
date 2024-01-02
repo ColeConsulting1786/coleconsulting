@@ -8,13 +8,12 @@
   margin: 0;
 }
 
-  header, nav {
-      background-color: #757d85;
-      color: #fff; /* Text color for better contrast */
+  header {
+      text-align: center;
     }
 
-    nav a {
-      color: #fff; /* Link color in the navigation bar */
+   header img {
+      display: inline-block;
     }
 
 /* Testimonial styling */
